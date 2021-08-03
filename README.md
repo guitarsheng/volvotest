@@ -17,14 +17,17 @@ The file `requirement analysis.docx` is a requirement analysis document against 
 Use maven tool to build and run project.
 
 1.	Build & Installation
+
 ~~~
 mvn package; mvn spring-boot:run;
 ~~~
 
 2.	Software dependencies
+
 java 8, swagger, spring boot, lombok, hsqldb
 
 3.  Technology
+
 DDD/TDD, JPA
 
 # Build and Test
