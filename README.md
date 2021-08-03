@@ -24,22 +24,24 @@ mvn package; mvn spring-boot:run;
 
 2.	Software dependencies
 
-java 8, swagger, spring boot, lombok, hsqldb
+    java 8, swagger, spring boot, lombok, hsqldb
 
 3.  Technology
 
-DDD/TDD, JPA
+    DDD/TDD, JPA
 
 # Build and Test
 
 1. Unit Test
+
 ~~~
 mvn test
 ~~~
 
 2. API Test
-Swagger URL: <http://localhost:8080/swagger-ui/index.html>
-Sample Request:
+
+    Swagger URL: <http://localhost:8080/swagger-ui/index.html>
+    Sample Request:
 ~~~
 {
     "city":"Gothenburg",
@@ -64,11 +66,11 @@ Sample Request:
     "vehicle":"Car"
 }
 ~~~
-expected result is 60, as it exceeded maximum fee allowed.
+    expected result is 60, as it exceeded maximum fee allowed.
 
 3. Health Check Endpoint
 
-  Spring Boot Actuator URL: <http://localhost:8080/actuator/health>
+    Spring Boot Actuator URL: <http://localhost:8080/actuator/health>
 
 ~~~
 {"status":"UP"}
