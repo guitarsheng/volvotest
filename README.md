@@ -1,36 +1,43 @@
-**Project**
+# Introduction 
 
-1. describe
-demo project for volvo test
+It's a project for demonstrating how to apply DDD/TDD in project and It's also an answer to the experiments given by Volvo.
 
-2. technology used
+# Content
 
-DDD/TDD, JPA, java 8, swagger, spring boot, lombok, hsqldb
+The folder `src` is a maven project which follow the maven convention.
 
+The details of experiments can be found in `ASSIGNMENT.md` file.
 
-**Build**
+The file `questions.md` is also part of answer to experiments.
 
-1. maven buid command
+The file `requirement analysis.docx` is a requirement analysis document against `ASSIGNMENT.md` .
+
+# Getting Started
+
+Use maven tool to build and run project.
+
+1.	Build & Installation
 ~~~
-mvn package
+mvn package; mvn spring-boot:run;
 ~~~
-**Start**
 
-1. maven spring boot command 
-~~~
-mvn spring-boot:run
-~~~
-**Test**
+2.	Software dependencies
+java 8, swagger, spring boot, lombok, hsqldb
 
-1. maven test command
+3.  Technology
+DDD/TDD, JPA
+
+# Build and Test
+
+1. Unit Test
 ~~~
 mvn test
 ~~~
-2. swagger url:
-   
-<http://localhost:8080/swagger-ui/index.html>
+
+2. API Test
+Swagger URL: <http://localhost:8080/swagger-ui/index.html>
+Sample Request:
 ~~~
-sample request:
 {
     "city":"Gothenburg",
     "timeline":[
@@ -54,14 +61,13 @@ sample request:
     "vehicle":"Car"
 }
 ~~~
-expected result is 60, as it exceeded maximum fee allowed
+expected result is 60, as it exceeded maximum fee allowed.
 
-**Health**
+3. Health Check Endpoint
 
-1. spring boot actuator url
-
-<http://localhost:8080/actuator/health>
+  Spring Boot Actuator URL: <http://localhost:8080/actuator/health>
 
 ~~~
 {"status":"UP"}
 ~~~
+
