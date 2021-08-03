@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Foreign</node>
+    <node x="1128.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Emergency</node>
+    <node x="658.0" y="0.0">com.volvo.congestion.calculator.domain.vehicle.Vehicle</node>
+    <node x="940.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Diplomat</node>
+    <node x="564.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Motorbike</node>
+    <node x="752.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Car</node>
+    <node x="188.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Military</node>
+    <node x="376.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Busses</node>
+    <node x="1316.0" y="172.0">com.volvo.congestion.calculator.domain.vehicle.Tractor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Busses" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="460.0" y="142.0" />
+      <point x="710.5" y="142.0" />
+      <point x="-31.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Foreign" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="84.0" y="122.0" />
+      <point x="668.5" y="122.0" />
+      <point x="-73.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Motorbike" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="648.0" y="152.0" />
+      <point x="731.5" y="152.0" />
+      <point x="-10.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Emergency" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="1212.0" y="132.0" />
+      <point x="794.5" y="132.0" />
+      <point x="52.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Military" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="272.0" y="132.0" />
+      <point x="689.5" y="132.0" />
+      <point x="-52.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Tractor" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="1400.0" y="122.0" />
+      <point x="815.5" y="122.0" />
+      <point x="73.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Diplomat" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="1024.0" y="142.0" />
+      <point x="773.5" y="142.0" />
+      <point x="31.5" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.vehicle.Car" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="0.0" y="-39.5" />
+      <point x="836.0" y="152.0" />
+      <point x="752.5" y="152.0" />
+      <point x="10.5" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="565.5" y="180.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

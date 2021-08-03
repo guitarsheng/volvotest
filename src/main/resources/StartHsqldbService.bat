@@ -1,0 +1,1 @@
+java -cp .;C:\Users\Guitar\.m2\repository\org\hsqldb\hsqldb\2.5.1\hsqldb-2.5.1.jar org.hsqldb.Server -database.0 volvo -dbname.0 volvo

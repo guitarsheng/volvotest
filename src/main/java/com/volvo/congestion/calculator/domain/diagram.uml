@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="216.5" y="0.0">com.volvo.congestion.calculator.domain.rule.TaxRule</node>
+    <node x="0.0" y="105.0">com.volvo.congestion.calculator.domain.vehicle.Vehicle</node>
+    <node x="224.0" y="105.5">com.volvo.congestion.calculator.domain.area.Area</node>
+    <node x="91.5" y="257.0">com.volvo.congestion.calculator.domain.CongestionTaxCalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.volvo.congestion.calculator.domain.area.Area" target="com.volvo.congestion.calculator.domain.rule.TaxRule">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.CongestionTaxCalculator" target="com.volvo.congestion.calculator.domain.vehicle.Vehicle">
+      <point x="-65.25" y="-39.0" />
+      <point x="156.75" y="232.0" />
+      <point x="102.0" y="232.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.CongestionTaxCalculator" target="com.volvo.congestion.calculator.domain.area.Area">
+      <point x="65.25" y="-39.0" />
+      <point x="287.25" y="232.0" />
+      <point x="342.0" y="232.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="425.5" y="265.0" />
+  <SelectedNodes>
+    <node>com.volvo.congestion.calculator.domain.rule.TaxRule</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

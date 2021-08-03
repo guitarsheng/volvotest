@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="138.75" y="0.0">com.volvo.congestion.calculator.domain.area.Area</node>
+    <node x="256.0" y="420.0">com.volvo.congestion.calculator.domain.area.Gothenburg</node>
+    <node x="0.0" y="420.5">com.volvo.congestion.calculator.domain.area.AnotherCity</node>
+    <node x="103.75" y="152.0">com.volvo.congestion.calculator.domain.area.City</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.volvo.congestion.calculator.domain.area.AnotherCity" target="com.volvo.congestion.calculator.domain.area.City">
+      <point x="0.0" y="-62.5" />
+      <point x="118.0" y="395.0" />
+      <point x="171.75" y="395.0" />
+      <point x="-68.0" y="109.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.area.Gothenburg" target="com.volvo.congestion.calculator.domain.area.City">
+      <point x="0.0" y="-63.0" />
+      <point x="361.5" y="395.0" />
+      <point x="307.75" y="395.0" />
+      <point x="68.0" y="109.0" />
+    </edge>
+    <edge source="com.volvo.congestion.calculator.domain.area.City" target="com.volvo.congestion.calculator.domain.area.Area">
+      <point x="0.0" y="-109.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="465.4999999999998" y="357.0" />
+  <SelectedNodes>
+    <node>com.volvo.congestion.calculator.domain.area.City</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
