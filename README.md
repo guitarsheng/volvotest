@@ -41,6 +41,9 @@ mvn test
 2. API Test
 
     Swagger URL: <http://localhost:8080/swagger-ui/index.html>
+    
+    Expected result is 60, as it exceeded maximum fee allowed.
+    
     Sample Request:
 ~~~
 {
@@ -66,11 +69,12 @@ mvn test
     "vehicle":"Car"
 }
 ~~~
-    expected result is 60, as it exceeded maximum fee allowed.
 
 3. Health Check Endpoint
 
-    Spring Boot Actuator URL: <http://localhost:8080/actuator/health>
+    Actuator URL: <http://localhost:8080/actuator/health>
+    
+    Expected result is:
 
 ~~~
 {"status":"UP"}
