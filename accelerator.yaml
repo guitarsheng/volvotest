@@ -21,7 +21,7 @@ accelerator:
 engine:
   chain:
     # Maven is selected
-    - condition: "#buildTool == 'maven'"
+    condi tion: "#buildTool == 'maven'"
       exclude: [ "settings.gradle.kts", "build.gradle.kts", "gradlew*", "gradle/**", "build.gradle", "settings.gradle"]
     # end of the Maven specific part
 
